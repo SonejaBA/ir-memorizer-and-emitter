@@ -28,7 +28,7 @@ Capture an infrared (IR) signal from a remote control and retransmit it using an
 5. Ensure that the IRremote library by Armin Joachimsmeyer et al. is installed and ESP32 support is added to your IDE.
 6. Select `Nologo ESP32C3 Super Mini` as your Board.
 7. Select the appropriate port.
-8. Flash the code located in `code/ir-receiver-emitter`.
+8. Flash the code located in `code/ir-receiver-emitter.ino`.
 9. Point an IR remote control at the receiver and press a button. The ESP32 should blink to indicate that a signal has been captured and stored. If connected to your computer, the captured code will also be printed in the Serial Monitor.
 10. Press the button to retransmit the stored IR signal using the emitter.
 
